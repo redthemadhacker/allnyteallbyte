@@ -1,0 +1,6 @@
+{
+  "name": "All Nyte All Byte",
+  "description": "Official business landing page for All Nyte All Byte digital studio, featuring services, Phonixia Fund, Phonixia Beta, and Dev Wishlist.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --font-display: 'Syne', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #060608;
+  color: #e2e8f0;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-code {
+  font-family: var(--font-mono);
+}
+
+.cyber-grid {
+  background-image: 
+    linear-gradient(to right, rgba(255, 26, 53, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 26, 53, 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.cyber-grid-dense {
+  background-image: 
+    linear-gradient(to right, rgba(255, 26, 53, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 26, 53, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.crimson-glow {
+  box-shadow: 0 0 30px -4px rgba(255, 26, 53, 0.22);
+}
+
+.crimson-glow-strong {
+  box-shadow: 0 0 45px -4px rgba(255, 26, 53, 0.45);
+}
+
+.crimson-text-glow {
+  text-shadow: 0 0 16px rgba(255, 26, 53, 0.6);
+}
+
+.crimson-border-glow {
+  border-color: rgba(255, 26, 53, 0.6);
+  box-shadow: inset 0 0 15px rgba(255, 26, 53, 0.15), 0 0 20px rgba(255, 26, 53, 0.25);
+}
