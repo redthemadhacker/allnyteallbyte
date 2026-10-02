@@ -49,7 +49,7 @@ export const IntakePortal: React.FC<IntakePortalProps> = ({
     formData.append('_subject', `New Project Request [${service}] from ${name}`);
 
     try {
-      const response = await fetch('https://formspree.io/f/xppalepv', {
+      const response = await fetch('https://formspree.io/f/myezaqde', {
         method: 'POST',
         body: formData,
         headers: {
@@ -294,7 +294,7 @@ export const IntakePortal: React.FC<IntakePortalProps> = ({
       {/* OS Footer */}
       <div className="bg-[#07070a] border-t border-neutral-800/80 px-6 py-2.5 flex items-center justify-between text-[11px] font-mono-code text-neutral-400">
         <div>SYS_READY // 3AM_EDITION</div>
-        <div>MARBUSINESS98@GMAIL.COM</div>
+        <div>REDTHEMADHACKER@GMAIL.COM</div>
       </div>
 
     </div>

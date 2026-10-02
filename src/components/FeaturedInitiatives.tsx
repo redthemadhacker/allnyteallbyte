@@ -80,7 +80,7 @@ export const FeaturedInitiatives: React.FC = () => {
                 rel="noopener noreferrer"
                 className="w-full py-3 px-4 text-xs font-mono-code font-bold uppercase tracking-wider text-white bg-[#ff1a35] hover:bg-[#d9122c] transition-all rounded flex items-center justify-center gap-2 shadow-[0_0_15px_rgba(255,26,53,0.3)] hover:shadow-[0_0_25px_rgba(255,26,53,0.6)] cursor-pointer"
               >
-                <span>Visit Phonixia Fund</span>
+                <span>Contribute to Fund</span>
                 <ExternalLink className="w-4 h-4" />
               </a>
             </div>
@@ -156,7 +156,7 @@ export const FeaturedInitiatives: React.FC = () => {
               {/* Card Meta */}
               <div className="flex items-center justify-between text-xs font-mono-code text-neutral-400 pb-3 border-b border-neutral-800">
                 <span className="text-[#ff1a35] font-semibold">LAB GEAR // DEV WISHLIST</span>
-                <span className="text-amber-400">AMAZON REGISTRY</span>
+                <span className="text-amber-400">AMAZON WISHLIST</span>
               </div>
 
               {/* Title & Icon Lockup */}
