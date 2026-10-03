@@ -119,7 +119,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenIntake }) => {
                 </div>
                 <div className="flex justify-between">
                   <span className="text-neutral-500">ACTIVE_VENTURES</span>
-                  <span className="text-[#ff1a35]">PHONIXIA FUND + BETA</span>
+                  <span className="text-[#ff1a35]">PHONIXIA</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-neutral-500">COFFEE_SUPPLY</span>
