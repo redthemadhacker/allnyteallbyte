@@ -95,7 +95,7 @@ export const FeaturedInitiatives: React.FC = () => {
                 <span className="text-[#ff1a35] font-semibold">APPLICATION // LIVE BETA</span>
                 <span className="text-emerald-400 font-semibold flex items-center gap-1.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                  OPERATIONAL
+                  MAINTAINENCE
                 </span>
               </div>
 
@@ -155,8 +155,8 @@ export const FeaturedInitiatives: React.FC = () => {
               
               {/* Card Meta */}
               <div className="flex items-center justify-between text-xs font-mono-code text-neutral-400 pb-3 border-b border-neutral-800">
-                <span className="text-[#ff1a35] font-semibold">LAB GEAR // DEV WISHLIST</span>
-                <span className="text-amber-400">AMAZON WISHLIST</span>
+                <span className="text-[#ff1a35] font-semibold">LAB GEAR // DEV TOOLS</span>
+                <span className="text-amber-400">DEV WISHLIST</span>
               </div>
 
               {/* Title & Icon Lockup */}
@@ -165,7 +165,7 @@ export const FeaturedInitiatives: React.FC = () => {
                   <Gift className="w-6 h-6" />
                 </div>
                 <h3 className="font-display font-bold text-2xl text-white group-hover:text-[#ff1a35] transition-colors">
-                  Dev Wishlist
+                  View Wishlist
                 </h3>
                 <div className="text-xs font-mono-code text-neutral-500 mt-1 truncate">
                   amazon.com/hz/wishlist/...
