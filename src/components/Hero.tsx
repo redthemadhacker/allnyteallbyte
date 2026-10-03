@@ -23,7 +23,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenIntake }) => {
             <div className="flex flex-wrap items-center gap-2 text-xs font-mono-code text-neutral-400">
               <span className="text-[#ff1a35] font-semibold">&gt; ALL NYTE ALL BYTE</span>
               <span aria-hidden="true" className="text-neutral-600">·</span>
-              <span>code // coffee // create</span>
+              <span>code // coffee // repeat</span>
               <span aria-hidden="true" className="text-neutral-600">·</span>
               <span className="text-neutral-300">EST. 2026</span>
             </div>

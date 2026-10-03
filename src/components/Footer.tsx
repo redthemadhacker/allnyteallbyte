@@ -33,7 +33,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </span>
             </button>
             <p className="text-xs font-mono-code text-neutral-400">
-              &gt; code // coffee // create · Independent Digital Studio
+              &gt; code // coffee // repeat · Independent Digital Studio
             </p>
           </div>
 

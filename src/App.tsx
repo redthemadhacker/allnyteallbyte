@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Hero } from './components/Hero';
 import { LogoProvider } from './context/LogoContext';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
@@ -76,7 +77,12 @@ export default function App() {
 
         {/* Dedicated Page Viewport */}
         <main className="flex-1">
-          {currentPage === 'home' && <HomePage onNavigate={navigateTo} />}
+          {currentPage === 'home' && (
+            <>
+              <Hero onOpenIntake={() => navigateTo('intake')} />
+              <HomePage onNavigate={navigateTo} />
+            </>
+          )}
           {currentPage === 'ventures' && <VenturesPage />}
           {currentPage === 'services' && (
             <ServicesPage
