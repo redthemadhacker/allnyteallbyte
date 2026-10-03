@@ -114,7 +114,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           </div>
           <div className="flex items-center gap-4">
             <a
-              href="https://reds-cyber-nook-a2ae0b8c4979.herokuapp.com/"
+              href="https://www.redthemadhacker.engineer"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#ff1a35] transition-colors"
