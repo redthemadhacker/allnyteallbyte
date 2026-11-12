@@ -1,7 +1,6 @@
 # All Nyte All Byte // Digital Engineering & Cybersecurity Studio
 
 > **Live Production:** [https://www.allnyteallbyte.co](https://www.allnyteallbyte.co)  
-> `root@allnyteallbyte:~# code // coffee // repeat // EST. 2026`
 
 ---
 
